@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Document</title>
+	<!-- fonts link -->
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600&family=Pacifico&family=Poppins:wght@400;500;600&display=swap"
+		rel="stylesheet" />
+
+	<!-- fontawesome  -->
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+	<!-- css link -->
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+	<div class="header">
+		<div class="logo">
+			<img src="../img/pngfind.com-hindu-logo-png-6692892.png" alt="" />
+		</div>
+		<div class="mid">
+			<span>Welcome to inventory Management system</span>
+		</div>
+		<div class="logout">
+			<i class="fa fa-sign-out"></i>
+		</div>
+	</div>
+	<!-- main section start -->
+	<!-- display output -->
+	<div class="display">
+		<div class="right">
+			<span id="item-summery">items details</span>
+			<input id="name-input" type="text" placeholder="Item name" required />
+
+			<input type="number" name="" id="input-q" placeholder="item Quantity" />
+
+			<input type="text" placeholder="items per price" required id="price" />
+
+			<button id="submit">Submit</button>
+		</div>
+		<div class="left">
+			<div class="viewbar">
+				<h3 class="d-1 ">Date</h3>
+				<h3 class="p-1">Particular</h3>
+			</div>
+			<div class="output">
+				<div class="dubba">
+					<div class="gn">
+						<h3 class="SN">1</h3>
+						<h3 id='date-1'class="date-show"></h3>
+					</div>
+					<div class="gn-2">
+						<h3 id="id-n">Name:</h3>
+						<h3 id="itemName" class="itemname"></h3>
+						<h3 class="qt">200<span>Pcs.</span> </h3>
+						<h3 class="per-price"><span>Rs.</span>900</h3>
+						<h3 class="total" id="total"><span>Total:</span>180000</h3>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+<script src="app.js"></script>
+</body>
+
+</html>
